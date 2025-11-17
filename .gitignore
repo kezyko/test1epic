@@ -4,6 +4,7 @@
 /writable/logs/*
 /writable/session/*
 /writable/uploads/*
+/writable/database/*
 !/writable/cache/index.html
 !/writable/logs/index.html
 !/writable/session/index.html
@@ -31,3 +32,8 @@ composer.phar
 
 # Epic system temporary directory
 /epic-system/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
