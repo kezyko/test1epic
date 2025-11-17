@@ -1,0 +1,39 @@
+# CodeIgniter 4 specific files
+/vendor/
+/writable/cache/*
+/writable/logs/*
+/writable/session/*
+/writable/uploads/*
+/writable/database/*
+!/writable/cache/index.html
+!/writable/logs/index.html
+!/writable/session/index.html
+!/writable/uploads/index.html
+
+# Environment files
+.env
+.env.production
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Composer
+composer.phar
+
+# PHPUnit
+.phpunit.result.cache
+
+# Epic system temporary directory
+/epic-system/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
